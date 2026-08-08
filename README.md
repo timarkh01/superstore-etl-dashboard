@@ -13,11 +13,11 @@
 ## Схема данных
 
 Звёздная схема: `fact_order` + `dim_customer` + `dim_product`.
-Диаграмма и структура таблиц - в [`docs/star_schema/`](docs/star_schema).
+Диаграмма и структура таблиц в [`docs/star_schema/`](docs/star_schema).
 
 ## Аналитика
 
-Семь SQL-запросов с выводами по продажам, прибыли, марже и клиентам — в [ANALYTICS.md](ANALYTICS.md).
+Семь SQL-запросов с выводами по продажам, прибыли, марже и клиентам в [ANALYTICS.md](ANALYTICS.md).
 
 ## Дашборд
 
