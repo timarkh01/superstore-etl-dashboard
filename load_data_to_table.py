@@ -16,6 +16,7 @@ file = pd.read_csv('Sample - Superstore.csv', encoding='latin1', dtype={'Postal 
 
 file['Order Date'] = pd.to_datetime(file['Order Date'], format='%m/%d/%Y')
 file['Ship Date'] = pd.to_datetime(file['Ship Date'], format='%m/%d/%Y')
+file['Postal Code'] = file['Postal Code'].str.zfill(5)
 
 dim_customer = file[['Customer ID', 'Customer Name', 'Segment', 'Country', 'City', 'State',
                      'Postal Code', 'Region']].drop_duplicates(subset='Customer ID')
