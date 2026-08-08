@@ -19,9 +19,17 @@
 
 Семь SQL-запросов с выводами по продажам, прибыли, марже и клиентам — в [ANALYTICS.md](ANALYTICS.md).
 
+## Дашборд
+
+![Dashboard](dashboard/dashboard_overview.png)
+
+Интерактивный дашборд с KPI-карточками, слайсером по году и семью визуалами, 
+отражающими те же аналитические вопросы, что разбирались в sql/analysis.sql.
+Файл: [dashboard/superstore_dashboard.pbix](dashboard/superstore_dashboard.pbix)
+
 ## Статус
 
 - [x] Проектирование звёздной схемы
 - [x] Загрузка данных в PostgreSQL
 - [x] Аналитические SQL-запросы
-- [ ] Дашборд в Power BI
+- [x] Дашборд в Power BI
